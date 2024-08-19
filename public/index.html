@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title> <%= webpackConfig.name %></title>
+  </head>
+  <style>
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 9px;
+      background-color: hsla(0,0%,100%,0);
+      border-left: 1px solid #dfe6ec;
+    }
+    ::-webkit-scrollbar-thumb {
+    height: 20px;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px transparent;
+    background-color: hsla(0,0%,85%,.9);
+    -webkit-transition: background-color 1s;
+    transition: background-color 1s;
+}
+  </style>
+  <script src="<%= BASE_URL %>tools/Tool.js"></script>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
+
